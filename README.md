@@ -22,3 +22,16 @@ A Streamlit-based dashboard for monitoring Google Cloud Platform resources inclu
 ```bash
 git clone https://github.com/deepakkumar-m/FinOps-Dashboard.git
 cd FinOps-Dashboard
+Install dependencies:
+bash
+
+Collapse
+
+Wrap
+
+Copy
+pip install -r requirements.txt
+Create a service account in Google Cloud Console with these roles:
+Compute Viewer (roles/compute.viewer)
+Storage Object Viewer (roles/storage.objectViewer)
+Download the service account JSON key file
